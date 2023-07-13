@@ -5,7 +5,6 @@
   {{/*  <h1>{{ $strapiData.title }}</h1>  */}}
 
   <div class="mt-4">
-    <img src="{{ $strapiData.data.attributes.thumbnail.data.attributes.formats.large.url }}" alt="" class="w-100 my-3">
     {{ $strapiData.data.attributes.content | markdownify }}
   </div>
 </article>

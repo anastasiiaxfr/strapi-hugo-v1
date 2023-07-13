@@ -1,6 +1,6 @@
 ---
 title: "About Us EN"
-endpoint: "/about?populate=*"
+endpoint: "/about?locale=en"
 ---
 
 <br/>

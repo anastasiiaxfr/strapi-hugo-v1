@@ -1,6 +1,6 @@
 ---
 title: "Terms FR"
-endpoint: "/term?populate=*"
+endpoint: "/term?locale=fr"
 ---
 
 <br/>

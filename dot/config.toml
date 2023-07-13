@@ -55,7 +55,7 @@ hasChildren = true
 ############################# Default Parameters ##########################
 [params]
 # !!! The Strapi server URL !!!
-StrapiServerURL = 'https://strapi-hugo-v0.onrender.com/api'
+StrapiServerURL = 'https://strapi-hugo-v1.onrender.com/api'
 
 
 # logo is for all page
