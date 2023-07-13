@@ -17,13 +17,14 @@ module.exports = ({ env }) => ({
   "netlify-deployments": {
     enabled: true,
     config: {
-        accessToken: env('NETLIFY_DEPLOYMENTS_PLUGIN_ACCESS_TOKEN'),
+        accessToken: env('NETLIFY_ACCESS_TOKEN'),
         sites: [
           {
-            name: env('NETLIFY_SITE_NAME'),
-            id: env('NETLIFY_SITE_ID'),
-            buildHook: env('NETLIFY_BUILD_HOOKS'),
-            branch: 'main', 
+            // name: env('NETLIFY_SITE_NAME'),
+            // id: env('NETLIFY_SITE_ID'),
+            // buildHook: env('NETLIFY_BUILD_HOOKS'),
+            // branch: 'main', 
+            accessToken: process.env.NETLIFY_DEPLOYMENTS_PLUGIN_ACCESS_TOKEN
           }
         ]
       },
