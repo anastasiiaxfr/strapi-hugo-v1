@@ -14,4 +14,10 @@ module.exports = ({ env }) => ({
       },
     },
   },
+  "netlify-deployments": {
+    enabled: true,
+    config: {
+      accessToken: env('NETLIFY_ACCESS_TOKEN'),
+    },
+  },
 });
